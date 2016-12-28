@@ -1,4 +1,4 @@
-﻿uusing System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,14 +12,9 @@ namespace OOP
 {
 	public class OOP_EvidenceLidi
 	{
-
-
         public static void Main()
 		{
-
-
 			Console.WriteLine("///Program evidence lidí///");
-
 
             //Clovek clovek1 = new Clovek("Jan",16,"Jana");
             Clovek clovek1 = new Clovek ();
@@ -31,10 +26,8 @@ namespace OOP
 			Console.Write("Zadejte jméno přítele: ");
 			clovek1.pritel = Console.ReadLine();
 
-
             Clovek clovek2 = new Clovek("Karel", 40, "Lucie");
 	
-
 			clovek1.Pozdrav(clovek1.jmeno, clovek1.vek, clovek1.pritel);
             clovek2.Pozdrav(clovek2.jmeno, clovek2.vek, clovek2.pritel);
 			Console.WriteLine(clovek1.Pozdrav2(clovek1.jmeno, clovek1.vek, clovek1.pritel));
@@ -45,9 +38,6 @@ namespace OOP
 
 	public class Clovek 
 	{
-
-
-
         //konstruktor
         public Clovek (string jmeno, int vek, string pritel)
 		{
@@ -61,7 +51,6 @@ namespace OOP
         {
 
         }
-
 
         //atributy
         public string jmeno;
